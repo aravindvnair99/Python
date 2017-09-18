@@ -9,7 +9,7 @@ def isomorphic(string1, string2):
 	# Length of both strings must be same for one to one
 	# corresponance
 	if m != n:
-		return False
+		return "Not isomorphic."
 
 	# To mark visited characters in str2
 	marked = [False] * MAX_CHARS
@@ -28,7 +28,7 @@ def isomorphic(string1, string2):
 			# if current character of st2 is already
 			# seen, one to one mapping not possible
 			if marked[ord(string2[i])] == True:
-				return False
+				return "Not isomorphic."
 
 			# Mark current character of str2 as visited
 			marked[ord(string2[i])] = True
@@ -40,7 +40,7 @@ def isomorphic(string1, string2):
 		# character in str1, then check if previous
 		# appearance mapped to same character of str2
 		elif map[ord(string1[i])] != string2[i]:
-			return False
+			return "Not isomorphic."
 
 	return True
 
