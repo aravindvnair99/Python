@@ -3,7 +3,3 @@ for lines in fhand:
 	line=lines.rstrip()
 	words=line.strip()
 	print(words)
-	if(words=="awards"):
-		print(word)
-	else:
-		continue
