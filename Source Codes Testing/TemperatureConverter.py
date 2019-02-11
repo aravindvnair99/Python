@@ -52,7 +52,15 @@ def kelvin_to_fahrenheit(K):
 
 
 #receives input from user
-temperature = float(input("Please input temperature: "))
+while True:
+    try:
+        temperature = float(input("Please input temperature: "))
+        break
+    except ValueError:
+        print("Invalid input")
+        continue
+    else:
+        break
 unit1 = input("Please input original unit of temperature (C - Celsius, F - Fahrenheit, K - Kelvin): ")
 unit2 = input("Please input unit to convert to (C - Celsius, F - Fahrenheit, K - Kelvin): ")
 
