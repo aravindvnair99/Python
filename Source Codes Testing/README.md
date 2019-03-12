@@ -5,6 +5,7 @@ A bunch of Python programs that are being tested. :x:
 # :octocat: Team
 
 * **Aravind V. Nair** - *Coder and tester* - [AravindVNair99](https://github.com/aravindvnair99)
+* **Saketh Chandra** - *Coder and tester* - [Saketh-Chandra](https://github.com/Saketh-Chandra)
 * **K. Kaushik Reddy** - *Coder* - [urstrulykkr](https://github.com/urstrulykkr)
 
 See the full list of [contributors](https://github.com/aravindvnair99/Python/graphs/contributors) who participated in this project and statistics.
