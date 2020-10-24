@@ -120,3 +120,4 @@ def gameLoop():
 
 
 gameLoop()
+#src: https://www.edureka.co/blog/snake-game-with-pygame/
