@@ -1,5 +1,4 @@
 import pygame
-import time
 import random
 
 ## source: https://www.edureka.co/blog/snake-game-with-pygame/
