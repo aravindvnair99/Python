@@ -55,7 +55,7 @@ def gameLoop():
 
     while not game_over:
 
-        while game_close == True:
+        while game_close is True:
             dis.fill(blue)
             message("You Lost! Press C-Play Again or Q-Quit", red)
 
