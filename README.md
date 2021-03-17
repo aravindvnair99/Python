@@ -4,11 +4,11 @@ Collection of beginner friendly Python programs.
 
 # :book: How to use the repository?
 
-* [Source Codes Stable](https://github.com/aravindvnair99/Python/tree/master/Source%20Codes%20Stable) contains codes that have been tested and are guaranteed to run. For any issues please report to us in the format mentioned below.
+- [Source Codes Stable](https://github.com/aravindvnair99/Python/tree/master/Source%20Codes%20Stable) contains codes that have been tested and are guaranteed to run. For any issues please report to us in the format mentioned below.
 
-* [Source Codes Testing](https://github.com/aravindvnair99/Python/tree/master/Source%20Codes%20Testing) contains new codes that are being tested and are scheduled to be pushed to stable channel soon. For any issues please report to us in the format mentioned below. Feel free to also contribute to this folder. Details mentioned below.
+- [Source Codes Testing](https://github.com/aravindvnair99/Python/tree/master/Source%20Codes%20Testing) contains new codes that are being tested and are scheduled to be pushed to stable channel soon. For any issues please report to us in the format mentioned below. Feel free to also contribute to this folder. Details mentioned below.
 
-* Python and Python 3 codes both are present in their respective folders.
+- Python and Python 3 codes both are present in their respective folders.
 
 # :octocat: How to contribute?
 
@@ -22,9 +22,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 # :octocat: Team
 
-* **Aravind V. Nair** - *Coder and tester* - [AravindVNair99](https://github.com/aravindvnair99)
-* **Saketh Chandra** - *Coder and tester* - [Saketh-Chandra](https://github.com/Saketh-Chandra)
-* **K. Kaushik Reddy** - *Coder* - [urstrulykkr](https://github.com/urstrulykkr)
+- **Aravind V. Nair** - _Coder and tester_ - [AravindVNair99](https://github.com/aravindvnair99)
+- **Saketh Chandra** - _Coder and tester_ - [Saketh-Chandra](https://github.com/Saketh-Chandra)
+- **K. Kaushik Reddy** - _Coder_ - [urstrulykkr](https://github.com/urstrulykkr)
 
 See the full list of [contributors](https://github.com/aravindvnair99/Python/graphs/contributors) who participated in this project and statistics.
 
@@ -40,11 +40,11 @@ Check the [changelog here](https://github.com/aravindvnair99/Python/commits/mast
 
 Report [here](https://github.com/aravindvnair99/Python/issues/new) in detail answering these questions:
 
-* What steps did you take to make the bug appear?
-* How can the bug be fixed? (In case you know)
-* Which OS and which all packages / softwares / dependencies are you using?
-* Have you tried any troubleshooting steps such as a reboot for example?
-* Have you followed the prescribed prerequisites?
+- What steps did you take to make the bug appear?
+- How can the bug be fixed? (In case you know)
+- Which OS and which all packages / softwares / dependencies are you using?
+- Have you tried any troubleshooting steps such as a reboot for example?
+- Have you followed the prescribed prerequisites?
 
 # :scroll: How do I contact the team?
 

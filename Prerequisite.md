@@ -1,8 +1,8 @@
-# Prerequisites:
+# Prerequisites
 
-* Python or Python 3 installed with necessary dependencies.
-* Text editor or IDE for coding in Python.
+- Python or Python 3 installed with necessary dependencies.
+- Text editor or IDE for coding in Python.
 
-# Recommendations:
+# Recommendations
 
-* PyCharm as IDE or Visual Studio Code as text editor.
+- PyCharm as IDE or Visual Studio Code as text editor.
