@@ -22,10 +22,8 @@ def binarySearch(arr, l, r, x):
         # Else the element can only be present
         # in right subarray
         return binarySearch(arr, mid + 1, r, x)
-
-    else:
-        # Element is not present in the array
-        return -1
+    # Element is not present in the array
+    return -1
 
 
 # Driver Code
