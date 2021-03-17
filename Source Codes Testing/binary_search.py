@@ -21,8 +21,7 @@ def binarySearch(arr, l, r, x):
 
         # Else the element can only be present
         # in right subarray
-        else:
-            return binarySearch(arr, mid + 1, r, x)
+        return binarySearch(arr, mid + 1, r, x)
 
     else:
         # Element is not present in the array
