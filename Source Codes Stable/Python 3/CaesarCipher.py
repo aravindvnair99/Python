@@ -6,7 +6,7 @@ def encrypt(k):
     l="abcdefghijklmnopqrstuvwxyz"
     l=list(l)
     b=[]
-    a=input("enter text to be encrypted: ")
+    a=input("\nEnter string (plaintext) to be encrypted: ")
     a=list(a)
     while(n<len(a)):
         if a[n].lower() in l:
@@ -24,15 +24,15 @@ def encrypt(k):
             if(a[n]==' '):
                 b.append(' ')
                 n+=1
-    print("The encrypted text is: ","".join(b))
+    print("\nThe encrypted string (ciphertext) is: ","".join(b))
 
-#Function to decrypt an encrypted string.
+#Function to decrypt an encrypted ciphertext.
 def decrypt(k):
     n,i=0,0
     l="abcdefghijklmnopqrstuvwxyz"
     l=list(l)
     b=[]
-    a=input("Enter cipher to be decrypted: ")
+    a=input("\nEnter string (plaintext) to be decrypted: ")
     a=list(a)
     while(n<len(a)):
         if a[n].lower() in l:
@@ -50,18 +50,18 @@ def decrypt(k):
             if(a[n]==' '):
                 b.append(' ')
                 n+=1
-    print("Cipher after decryption is: ","".join(b))
+    print("\nThe decrypted string (ciphertext) is: ","".join(b))
 
 
 #Main
-opt=int(input("1.encrypt   2.decrypt   0.exit"))
+opt=int(input("Pick one of the options:\n\n1.Encrypt\n2.Decrypt\n0.Exit\n\n"))
 while(opt!=0):
     if(opt==1):
-        n=int(input("enter key"))
+        n=int(input("Enter a number to shift by: "))
         encrypt(n)
     elif(opt==2):
-        n=int(input("enter key"))
+        n=int(input("Enter a number to shift by: "))
         decrypt(n)
     else:
-        print("enter valid option")
-    opt=int(input("1.encrypt 2.decrypt 0.exit"))
+        print("Please enter a valid option: ")
+    opt=int(input("Pick one of the options:\n\n1.Encrypt\n2.Decrypt\n0.Exit\n\n"))
