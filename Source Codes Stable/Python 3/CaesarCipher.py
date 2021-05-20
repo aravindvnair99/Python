@@ -54,14 +54,14 @@ def decrypt(k):
 
 
 #Main
-opt=int(input("Pick one of the options:\n\n1.Encrypt\n2.Decrypt\n0.Exit\n\n"))
+opt=int(input("\nPick one of the options:\n\n1.Encrypt\n2.Decrypt\n0.Exit\n\n"))
 while(opt!=0):
     if(opt==1):
-        n=int(input("Enter a number to shift by: "))
+        n=int(input("\nEnter a number to shift by: "))
         encrypt(n)
     elif(opt==2):
-        n=int(input("Enter a number to shift by: "))
+        n=int(input("\nEnter a number to shift by: "))
         decrypt(n)
     else:
-        print("Please enter a valid option: ")
-    opt=int(input("Pick one of the options:\n\n1.Encrypt\n2.Decrypt\n0.Exit\n\n"))
+        print("\nInvalid option. Please enter a valid option.")
+    opt=int(input("\nPick one of the options:\n\n1.Encrypt\n2.Decrypt\n0.Exit\n\n"))
