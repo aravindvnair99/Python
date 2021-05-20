@@ -52,7 +52,6 @@ def decrypt(k):
                 n+=1
     print("\nThe decrypted string (ciphertext) is: ","".join(b))
 
-
 #Main
 opt=int(input("\nPick one of the options:\n\n1.Encrypt\n2.Decrypt\n0.Exit\n\n"))
 while(opt!=0):
