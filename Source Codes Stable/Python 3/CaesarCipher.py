@@ -52,7 +52,6 @@ def decrypt(k):
                 n+=1
     print("Cipher after decryption is: ","".join(b))
 
-
 #Main
 opt=int(input("1.encrypt   2.decrypt   0.exit"))
 while(opt!=0):
